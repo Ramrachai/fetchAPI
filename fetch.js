@@ -1,6 +1,6 @@
 console.log("hello api");
 
-fetch("https://crossorigin.me/https://www.metaweather.com/api/location/44418/")
+fetch("https://jsonplaceholder.typicode.com/todos/1")
   .then(result => {
     console.log(result);
     return result.json();
