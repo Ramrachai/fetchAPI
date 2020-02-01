@@ -2,7 +2,7 @@ console.log("hello api");
 
 const weatherApi = function(location) {
   const key = "f72a35a09fffc9b1a262661c629fba16";
-  const url = `http://api.openweathermap.org/data/2.5/weather?q=${location}&APPID=${key}&units=metric`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&APPID=${key}&units=metric`;
 
   let city = document.querySelector(".city");
   let country = document.querySelector(".country");
