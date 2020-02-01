@@ -5,9 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+    <style>
+      p > span {
+        font-weight: bold;
+        font-size: 18px;
+      }
+    </style>
   </head>
   <body>
     <h1>hello fetch() api</h1>
+    Fetch weather information from
+    <a href="https:openweathermap.org">openweathermap.org</a>
+    <h3>
+      Time: <span class="time"></span> &nbsp; &nbsp; Date:
+      <span class="date"></span>
+    </h3>
+    <hr />
+    <h2>
+      Location: <span class="city"></span>,
+      <span class="country"></span>
+    </h2>
+    <p>
+      Longitude: <span class="long"></span>&deg; and Latitude
+      <span class="lat"></span>&deg;
+    </p>
+
+    <p>Temperature: <span class="temp"></span>&deg;C</p>
+    <p>Feels Like: <span class="feel"></span>&deg;C</p>
+    <p>Maximum Temperature: <span class="max_temp"></span>&deg;C</p>
+    <p>Minimum Temperature: <span class="min_temp"></span>&deg;C</p>
+    <p>Pressure: <span class="pressure"></span> hPa</p>
+    <p>Humidity: <span class="humid"></span>%</p>
+    <p>Wind Speed: <span class="wind"></span> m/s</p>
+    <p>Sunrise: <span class="sunrise"></span></p>
+    <p>Sunset: <span class="sunset"></span></p>
+    <p></p>
+
     <script src="fetch.js"></script>
   </body>
 </html>
