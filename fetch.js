@@ -1,6 +1,5 @@
 console.log("hello api");
 
-<<<<<<< HEAD
 const weatherApi = function(location) {
   const key = "f72a35a09fffc9b1a262661c629fba16";
   const url = `http://api.openweathermap.org/data/2.5/weather?q=${location}&APPID=${key}&units=metric`;
@@ -50,12 +49,3 @@ const weatherApi = function(location) {
 };
 
 weatherApi("dhaka");
-=======
-fetch("https://jsonplaceholder.typicode.com/todos/1")
-  .then(result => {
-    console.log(result);
-    return result.json();
-  })
-  .then(data => console.log(data))
-  .catch(error => console.log(error));
->>>>>>> 672e2c282f3445d2e2626774486cfcebccaa0e43
